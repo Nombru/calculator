@@ -17,6 +17,7 @@ $(document).ready(function() {
 			//console.log(number1)
 
 			var result = add(number1,number2);
+			$("#result").text(result);
 			console.log(result);
 			event.preventDefault();
 
